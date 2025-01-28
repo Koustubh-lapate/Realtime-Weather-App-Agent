@@ -61,7 +61,7 @@ while (true) {
 
     while (true) {
         const chat = await client.chat.completions.create({
-            model: 'gpt-4',
+            model: 'gpt-4o-mini',
             messages: messages,
             response_format: { type: 'json_object' },
         });
